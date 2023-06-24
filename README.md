@@ -1,22 +1,4 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/23141800/113610876-632a4300-9656-11eb-9583-d07f4e34d774.png" width="350px" alt="DivideAndScan">
-</p>
-
-<p align="center">
-  <strong>Divide <strike>Et Impera</strike> And Scan (and also merge the scan results)</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/snovvcrash/DivideAndScan/blob/main/pyproject.toml#L3"><img src="https://img.shields.io/badge/version-0.3.6-success" alt="version" /></a>
-  <a href="https://github.com/snovvcrash/DivideAndScan/search?l=python"><img src="https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=white" alt="python" /></a>
-  <a href="https://www.codacy.com/gh/snovvcrash/DivideAndScan/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=snovvcrash/DivideAndScan&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/35f0bdfece9846d7aab3888b01642813" alt="codacy" /></a>
-  <a href="https://github.com/snovvcrash/DivideAndScan/actions/workflows/publish-to-pypi.yml"><img src="https://github.com/snovvcrash/DivideAndScan/actions/workflows/publish-to-pypi.yml/badge.svg" alt="pypi" /></a>
-  <a href="https://github.com/snovvcrash/DivideAndScan/actions/workflows/publish-to-docker-hub.yml"><img src="https://github.com/snovvcrash/DivideAndScan/actions/workflows/publish-to-docker-hub.yml/badge.svg" alt="docker" /></a>
-</p>
-
----
-
-**D**ivide**A**nd**S**can is used to efficiently automate port scanning routine by splitting it into 3 phases:
+##Port-Scanner is used to efficiently automate port scanning routine by splitting it into 3 phases:
 
 1. Discover open ports for a bunch of targets.
 2. Run Nmap individually for each target with version grabbing and NSE actions.
